@@ -1,7 +1,8 @@
 HI!
 
 This is just a simple terraform project done as a practice that creates 
-a lambda triggered by an s3 bucket.
+a lambda triggered by an s3 bucket, to run it simply go to the infrastructure_config folder
+and use terraform to initialize and apply the project.
 
 The module only requires two inputs: the name of the bucket to create and the environment name
 evrything else derived from there; imagining a scenario where this type of infrastructure 
